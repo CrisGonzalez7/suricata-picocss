@@ -1,0 +1,35 @@
+form {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    color: var(--dark);
+    text-transform: uppercase;
+}
+
+input,
+textarea,
+select {
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: var(--font-primary);
+    font-size: 1.6rem;
+}
+
+textarea {
+    height: 15rem;
+}
+
+input[type="submit"] {
+    background-color: var(--primary);
+    color: var(--white);
+    cursor: pointer;
+}
