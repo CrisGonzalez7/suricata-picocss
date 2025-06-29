@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Cris Gonzalez">
+    <title>Suricata PicoCSS</title>
+    <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/pico.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="container-fluid">
+        <a href="/"><img class="logo" src="assets/img/logo/logo.png" alt="Suricata" width="140" height="56"></a>
+        <!-- Modo claro/oscuro -->
+        <button id="theme-toggle" aria-label="Alternar tema"><i id="theme-icon"></i><span class="visually-hidden">Modo Claro / Oscuro</span></button>
+        <ul>
+            <li><a href="/" aria-current="page">Inicio</a></li>
+            <li><a href="#">Productos</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- Productos -->
+    <main class="container">
+        <h2>Productos</h2>
+        <div class="productos">
+            <div class="card">
+                <img src="https://placehold.co/300x200" alt="Producto 1" />
+                <h3>Producto 1</h3>
+                <p>Descripción del producto.</p>
+                <a href="#" class="contrast">Ver más</a>
+            </div>
+            <div class="card">
+                <img src="https://placehold.co/300x200" alt="Producto 2" />
+                <h3>Producto 2</h3>
+                <p>Descripción del producto.</p>
+                <a href="#" class="contrast">Ver más</a>
+            </div>
+            <!-- Más tarjetas... -->
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="container">
+        <p>© 2025 Suricata. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+
+</html>
